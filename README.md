@@ -42,6 +42,7 @@ $ pkg install imagemagick -y
 $ git clone https://github.com/Rmdhn-20/Gurabot
 $ cd Gurabot
 $ npm i 
+$ npm i --arch=x64 --platform=linux sharp
 ```
 
 ```bash
@@ -85,6 +86,7 @@ apt install -y nodejs gcc g++ make
 git clone https://github.com/Rmdhn-20/Gurabot
 cd Gurabot
 npm install
+npm install --arch=x64 --platform=linux sharp
 npm update
 ```
 
