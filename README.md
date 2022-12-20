@@ -42,7 +42,6 @@ $ pkg install imagemagick -y
 $ git clone https://github.com/Rmdhn-20/Gurabot
 $ cd Gurabot
 $ npm i 
-$ npm i --arch=x64 --platform=linux sharp
 ```
 
 ```bash
@@ -53,6 +52,15 @@ $ npm start
 ```bash
 $ pkg install yarn -y
 $ yarn install
+```
+---------
+
+## PANEL USER
+```
+1) Download this repo as zip file https://github.com/Rmdhn-20/Gurabot-MD/archive/refs/heads/V2.zip
+2) Extract zip file in your panel
+3) Extract node_modules.tar.gz in your panel
+4) Run the script
 ```
 ---------
 
@@ -86,7 +94,6 @@ apt install -y nodejs gcc g++ make
 git clone https://github.com/Rmdhn-20/Gurabot
 cd Gurabot
 npm install
-npm install --arch=x64 --platform=linux sharp
 npm update
 ```
 
